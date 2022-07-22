@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu;
+    display: flex;
+    padding: 0px;
+    background-color: rgb(231, 209, 209);
+    flex-direction: column;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.computer-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.computer-choice-picture-cont {
+    border: 2px solid black;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 8px;
+}
